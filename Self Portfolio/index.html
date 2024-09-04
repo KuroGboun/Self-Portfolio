@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kuro Gboun</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="hamburg.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Kuro Gboun</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Kuro Gboun</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section_pic-container">
+        <img src="./images/headshot.png" alt="Kuro Gboun pfp" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Kuro Gboun</h1>
+        <p class="section__text__p2">A 3rd Year Computer Science Student</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./Resume%20(September%202024)%20-%20Kuro%20Gboun.pdf')"
+            >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container"><img src=""</div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know Me!</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+           
+            <div class="details-container">
+              <img src="./images/exper.png" alt="Education icon" class="icon" />
+              <h3>Education</h3>
+              <p>
+                Ongoing B.Computer Science Bachelors Degree <br />
+                Sept 2022 - April 2026 <br />
+                Software Engineering Stream
+              </p>
+            </div>
+            
+          </div>
+          <div class="text-container">
+            <p class="toti">
+              🚀 About Me:<br />
+              <br />
+              As a third-year Computer Science student at Carleton University, specializing in the Software Engineering stream, I'm on the hunt for exciting internship opportunities where I can bring my technical skills and passion for software development to life! 💻✨<br />
+              <br />
+              🔧 With hands-on experience in building full-stack applications, crafting efficient data structures, and designing user-friendly interfaces, I've developed a solid understanding of software engineering principles. My toolkit includes languages like Java, C++, and Python, and I'm comfortable working with frameworks such as Node.js and XAMPP.<br />
+              <br />
+              🌟 I'm eager to dive into a dynamic team environment where I can contribute, learn, and grow. I'm especially interested in roles that allow me to tackle meaningful projects, enhance my problem-solving skills, and accelerate my journey in the tech industry.<br />
+              <br />
+              Let's build something amazing together! 🚀👩‍💻<br />            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+  
+          <!-- First Project Box -->
+          <div class="details-container color-container">
+              <div class="article-container">
+              </div>
+              <h2 class="experience-sub-title project-title">Ravens Roost Management System</h2>
+              <p class="project-description">Developed a comprehensive management system for a game lounge, using a full stack approach with HTML, CSS, JavaScript, PHP, and SQL on XAMPP. Created a user-friendly interface and robust back-end to handle data securely.</p>
+              <a href="https://github.com/KuroGboun/Ravens-Roost-Management-System" target="_blank" rel="noopener noreferrer">
+                <button class="btn btn-color-2 project-btn">Go to Project</button>
+            </a>
+          </div>
+  
+          <!-- Second Project Box -->
+          <div class="details-container color-container">
+              <div class="article-container">
+              </div>
+              <h2 class="experience-sub-title project-title">2D Game Simulation</h2>
+              <p class="project-description">
+                Created a 2D game simulation in C++ using Ubuntu Linux. Implemented a Strategy design pattern and used Valgrind and GDB for memory management and debugging. Unfortunately, I could not add this project to my GitHub, as it was a school project and could be plagiarized.
+            </p>              
+          </div>
+  
+          <!-- Third Project Box -->
+          <div class="details-container color-container">
+              <div class="article-container">
+              </div>
+              <h2 class="experience-sub-title project-title">Advanced Data Structure Exploration</h2>
+              <p class="project-description">Explored and implemented various data structures and algorithms in Java, including arrays, linked lists, stacks, queues, trees, and sorting/searching algorithms to solve complex problems.</p>
+              
+          </div>
+  
+          <!-- Fourth Project Box -->
+          <div class="details-container color-container">
+              <div class="article-container">
+              </div>
+              <h2 class="experience-sub-title project-title">Self Portfolio Website</h2>
+              <p class="project-description">Built a personal portfolio website using HTML, CSS, and JavaScript. Showcases my technical skills and projects, designed for responsive display across various devices.</p>
+             
+          </div>
+  
+      </div>
+  </section>
+  
+
+      
+    </section>
+    <section id="contacts">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+          src="./images/phone.png"
+          alt="phone icon"
+          class="icon contact-icon"
+        />
+        <p>
+          <a>+1 778 586 7966</a>
+        </p>
+          <img
+            src="./images/email.png"
+            alt="Email icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="mailto:gbounkuro@gmail.com">gbounkuro@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./images/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="http://www.linkedin.com/in/kurogboun">LinkedIn</a>
+          </p>
+          <img
+            src="./images/github.png"
+            alt="Github icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://github.com/KuroGboun">GitHub</a>
+          </p>
+          
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Kuro Gboun. All RIghts Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
